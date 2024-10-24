@@ -27,15 +27,15 @@ El proyecto está configurado para conectarse a una base de datos PostgreSQL uti
 
 ### Migración y Seed Data
 
-Se ha implementado una migración que genera la tabla `MarcasAutos` en la base de datos. Además, se ha desarrollado un mecanismo de seed data para inicializar esta tabla con al menos tres marcas de autos de ejemplo.
+Se ha implementado una migración que genera la tabla `CarBrand` en la base de datos. Además, se ha desarrollado un mecanismo de seed data para inicializar esta tabla con al menos tres marcas de autos de ejemplo.
 
 ### API REST
 
-El controlador `MarcasAutosController` expone un endpoint que permite obtener todas las marcas de autos desde la base de datos.
+El controlador `CarBrandController` expone un endpoint que permite obtener todas las marcas de autos desde la base de datos.
 
 ### Pruebas Unitarias
 
-Se han implementado pruebas unitarias con XUnit para asegurar que el endpoint de `MarcasAutosController` devuelve los datos esperados. El entorno de pruebas incluye un contexto de base de datos en memoria para una validación rápida y eficiente de la funcionalidad.
+Se han implementado pruebas unitarias con XUnit para asegurar que el endpoint de `CarBrandController` devuelve los datos esperados. El entorno de pruebas incluye un contexto de base de datos en memoria para una validación rápida y eficiente de la funcionalidad.
 
 ### Docker Compose
 
